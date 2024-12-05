@@ -8,6 +8,14 @@ This project uses [Poetry](https://python-poetry.org/) to manage dependencies.
 
 To install Poetry, follow the instructions on the [official website](https://python-poetry.org/docs/#installation).
 
+Before running installation it is recommended to configure the virtual environment setting in poetry. To do so, run the following command:
+
+```bash
+poetry config virtualenvs.in-project true
+```
+
+Without this setting, Poetry will create a virtual environment in the user's home directory.
+
 To install the required packages, run the following command:
 
 ```bash
