@@ -1,6 +1,9 @@
 # IDE specific
 .vscode/.history
 
+# project specific
+b-exercise5/gradient-descent/
+
 # Output files
 *.html
 *.pdf
